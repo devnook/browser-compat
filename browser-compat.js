@@ -127,7 +127,7 @@ template.innerHTML = `
  * <browser-compat feature-id="anchor-positioning"></browser-compat>
  */
 
-export class BrowserCompat extends HTMLElement {
+export default class BrowserCompat extends HTMLElement {
   static observedAttributes = ['feature-id'];
 
   set featureId(val) {
