@@ -21,7 +21,7 @@ Show Browser Compatibility widget for
 Install
 
 ```
-npm install browser-compat
+npm install browser-compat-widget
 ```
 
 See [docs](https://github.com/devnook/browser-compat/blob/main/docs/index.html)
@@ -33,6 +33,6 @@ for an example of a bundler configuration.
 *Option 2: Precompiled from e.g. CDN.*
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/browser-compat@0.0.1/browser-compat.min.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/browser-compat-widget@0.0.1/browser-compat.min.js" type="module"></script>
 <browser-compat feature-id="anchor-positioning"></browser-compat>
 ```
