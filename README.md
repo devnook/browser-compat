@@ -1,9 +1,9 @@
 # &lt;browser-compat> web component
 
-A widget displaying Baseline status of a web feature based on
-https://github.com/web-platform-dx/web-features data
+A widget displaying Browser Compatibility of a web feature based on
+[mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
 
-<img width="859" alt="baseline_widget_example" src="https://github.com/devnook/browser-compat/assets/1914261/3171ee2d-6949-47c9-8328-b79e467813f7">
+<img width="860" alt="Screenshot 2024-07-09 at 12 43 35" src="https://github.com/devnook/browser-compat/assets/1914261/94d4e5b5-c4bf-481f-9b2f-3e5956f01bd9">
 
 ## Example
 
