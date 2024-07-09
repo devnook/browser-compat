@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>&lt;browser-compat> Demo</title>
+    <script type="module" src="../browser-compat.min.js"></script>
+    <style>
+      body {
+        font-family: Roboto, sans-serif;
+      }
+      browser-compat {
+        margin-block-end: 1rem;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #222;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>&lt;browser-compat&gt; demo</h1>
+    <browser-compat feature-id="api.Animation.cancel"></browser-compat>
+    <browser-compat feature-id="api.ML"></browser-compat>
+    <browser-compat feature-id="api.Highlight"></browser-compat>
+    <browser-compat feature-id="i.dont.exist"></browser-compat>
+    <browser-compat></browser-compat>
+  </body>
+</html>
