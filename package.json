@@ -1,6 +1,6 @@
 {
   "name": "browser-compat-widget",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A widget displaying BCD status of a web feature",
   "main": "browser-compat.js",
   "type": "module",
